@@ -31,6 +31,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/repeat"
                 android:src="@drawable/repeat"/>
         </LinearLayout>
 
@@ -41,7 +42,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/random"/>
+                android:contentDescription="@string/random"
+                android:src="@drawable/random" />
         </LinearLayout>
 
         <LinearLayout
@@ -52,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:id="@+id/playlist"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/library"
                 android:src="@drawable/list"/>
         </LinearLayout>
 
@@ -154,7 +157,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/previous"/>
+                android:contentDescription="@string/Previous"
+                android:src="@drawable/previous" />
         </LinearLayout>
 
         <LinearLayout
@@ -164,6 +168,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/play"
                 android:src="@drawable/play"/>
         </LinearLayout>
 
@@ -174,6 +179,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/next"
                 android:src="@drawable/next"/>
         </LinearLayout>
 
